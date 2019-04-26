@@ -1,0 +1,22 @@
+Package: coffeer
+Type: Package
+Title: Conjunto de Funcoes Feitas em R
+Version: 0.0.0.9000
+Authors@R: person("Luiz Fernando", "Passos", email = "luizfcpassos@gmail.com", role = c("aut", "cre"))
+URL: https://github.com/luizfcp/coffeer, https://luizfcp.github.io/
+Description: Caixa de ferramentas (funções) feitas em R para ajudá-lo.
+Depends: 
+	R (>= 3.4.4)
+	Imports:
+	htmltools,
+	webshot,
+	magick,
+	magrittr,
+	rmarkdown	
+Suggests:
+	flextable,
+	dplyr
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
