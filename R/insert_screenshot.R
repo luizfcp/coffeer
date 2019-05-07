@@ -4,7 +4,7 @@
 #' A partir de uma tabela html gerada com o pacote
 #' flextable tira-se um webshot da tabela html para
 #' salvar a imagem como uma figura png.
-#' 
+#'
 #' O link usado de referencia para criar a funcao e
 #' \url{https://stackoverflow.com/a/49049701/9990992}
 #'
@@ -19,14 +19,14 @@
 #' flextable(mtcars) %>% insert_screenshot('my-screenshot.png')
 #'
 insert_screenshot = function(x, png_file = "image.png") {
-  
+
   htmltools::save_html(htmltools_value(x), 'temp.html')
-  
+
   img = webshot::webshot('temp.html', png_file, zoom = 2)
   unlink('temp.html')
-  
+
   magick::image_write(
     magick::image_trim(magick::image_read(str_c(img))),
     path = png_file)
-  
+  unlink("lib", recursive = T)
 }
