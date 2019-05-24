@@ -4,7 +4,7 @@ Title: Conjunto de Funcoes Feitas em R
 Version: 0.0.0.9000
 Authors@R: c(
   person("Luiz Fernando", "Passos", email = "luizfcpassos@gmail.com", role = c("aut", "cre")),
-  person("Fellipe", "Gomes", email = "gomes.fellipe1@gmail.com", role = "aut"),
+  person("Fellipe", "Gomes", role = "aut"),
 )
 URL: https://github.com/luizfcp/coffeer, https://luizfcp.github.io/
 Description: Caixa de ferramentas (funções) feitas em R para ajudá-lo.
