@@ -2,7 +2,10 @@ Package: coffeer
 Type: Package
 Title: Conjunto de Funcoes Feitas em R
 Version: 0.0.0.9000
-Authors@R: person("Luiz Fernando", "Passos", email = "luizfcpassos@gmail.com", role = c("aut", "cre"))
+Authors@R: c(
+  person("Luiz Fernando", "Passos", email = "luizfcpassos@gmail.com", role = c("aut", "cre")),
+  person("Fellipe", "Gomes", email = "gomes.fellipe1@gmail.com", role = "aut"),
+)
 URL: https://github.com/luizfcp/coffeer, https://luizfcp.github.io/
 Description: Caixa de ferramentas (funções) feitas em R para ajudá-lo.
 Depends: 
